@@ -1,0 +1,490 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'Lato', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif !important;
+  line-height: 1.5;
+  background-color: #e3e3e3;
+}
+
+.top-banner::focus-visible { 
+  outline: none;
+}
+
+.top-banner {
+  height: 126vh;
+  width: 100%;  
+  margin-top: 50px;
+  background-image: url("../images/fundo_1.png"); 
+  background-repeat: no-repeat;
+  background-position: right;  
+}
+
+.botom-banner {
+  height: 64vh;
+  width: 100%;  
+  background-image: url("../images/fundo_2.svg"); 
+  background-repeat: no-repeat;
+  background-position: center;  
+  z-index: 999 !important;
+  position: relative;
+  bottom: -63px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav {
+  padding-top: 81px;
+  padding-right: 20px;
+}
+
+.nav-link{
+  text-align: right !important;
+  color:#931854 !important;
+  font-size: 14px !important;
+}
+
+.navbar-nav .active .nav-link{
+  font-weight: bold;
+}
+
+.justify-content-space-evenly {
+  width: 600px !important;
+  justify-content: space-evenly !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  padding-left: 140px !important;
+}
+.box-banner {
+  width: 100%;
+  height: auto;
+  padding-left: 140px;
+}
+
+.title-banner {
+  padding-top: 145px;
+  width: 36vw;
+  height: auto;
+}
+
+.title-banner h1{
+  color: #0B6699;
+  font-size: 170px;
+  font-weight: 900;
+  line-height: 118px;
+}
+
+.sub-title-banner {
+  padding-top: 100px;
+  width: 44vw;
+}
+
+.sub-title-banner span {
+  color: #0B6699;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.min-card {
+  width: 172px;
+  height: 85px;
+  background-color: #931854;
+  position: fixed;
+  bottom: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  padding: 15px;
+  z-index: 99998;
+  box-shadow: 0 0 1em black;
+}
+
+.min-card span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.icon-down {
+  width: 51px;
+  height: 25px;
+  position: absolute;
+  bottom: 10%;
+}
+
+.vitae {
+  padding-top: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.commodo {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.card {
+  width: 536px;
+  height: 286px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 1em black;
+  margin-bottom: 80px;
+  display: flex;
+  flex: 1;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.card img {
+  align-self: flex-end;
+  position: absolute;
+  right: 45px;
+  top: -41px;
+}
+
+.card span {
+  text-align: left;
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  top: 66px;
+  left: 15px;
+}
+
+.card span h2 {
+  color: #931854;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.card span span {
+  color: #931854;
+  font-weight: 400;
+  font-size: 16px; 
+}
+
+.botom-container {
+  height: auto;
+  width: 100%; 
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  bottom: 0;
+  position: relative;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.title-commodo {
+  width: 50vw;
+  height: auto;
+  text-align: center;
+}
+
+.title-commodo h1 {
+  color: #931854;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 118px;
+}
+
+.sub-title-commodo {
+  padding-top: 50px;
+  width: 50vw;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.sub-title-commodo span {
+  color: #931854;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.card-commodo {
+  width: 536px;
+  height: 286px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 1em black;
+  margin-bottom: 80px;
+  text-align: center;
+  left: 15px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.card-commodo h2 {
+  color: #931854;
+  font-weight: 900;
+  padding-bottom: 20px;
+  font-size: 26px !important;
+}
+
+.card-commodo span {
+  color: #931854;
+  font-weight: 400;
+  font-size: 18px; 
+}
+
+.card-bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(147 24 84)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(147 24 84) !important;
+  border-color: rgb(147 24 84) !important;
+}
+
+@media screen and (max-width: 1440px) {
+  .top-banner {
+    margin-top: 115px;
+  }
+
+  .title-banner {
+    padding-top: 100px;
+  }
+
+  .title-banner h1 {
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  .sub-title-banner {
+    padding-top: 34px
+  }
+  
+  .sub-title-banner span {
+    font-size: 18px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .title-commodo h1 {
+    font-size: 75px;
+    line-height: 70px;
+  }
+
+  .title-banner {
+    padding-top: 238px;
+  }
+
+  .title-banner h1 {
+    font-size: 90px;
+  }
+
+  .sub-title-banner {
+    padding-top: 166px;
+    padding-left: 48px;
+    width: 55vw;
+  }
+
+  .sub-title-banner span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+  #navbarNavDropdown ul {
+    width: 300px !important;
+    height: 900px;
+    background: #931854;
+    justify-content: normal !important;
+    align-items: start;
+    padding-left: 31px;
+    padding-top: 150px;
+  }
+
+  .nav-link {
+    color: #fff !important;
+    font-size: 24px !important;
+    font-weight: bold !important;
+  }
+
+  .title-banner {
+    padding-top: 571px;
+    width: 58vw;
+  }
+
+  .botom-banner {
+    bottom: 389px;
+  }
+
+  .vitae {
+    padding-top: 404px;
+  }
+
+  .title-banner {
+    width: 79vw;
+  }
+
+  .box-banner {
+    padding-left: 0;
+  }
+  
+  .sub-title-banner {
+    padding-left: 0px;
+    width: 100vw;
+  }
+
+  .sub-title-banner span {
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .title-commodo h1 {
+    font-size: 65px;
+  }
+
+  .title-banner {
+    padding-left: 140px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-banner {
+    padding-left: 20px;
+    width: 100vw;
+  }
+
+  .vitae {
+    padding-top: 100px;
+  }
+
+  .card, .card-commodo {
+    width: 389px;
+    right: 35px;
+  }
+
+  .card span {
+    width: 360px;
+    left: 10px;
+  }
+
+  .right {
+    float: none;
+  }
+
+  .title-commodo {
+    width: 100vw;
+  }
+
+  .title-commodo h1 {
+    font-size: 50px;
+  }
+
+  .sub-title-commodo {
+    width: 100vw;
+    padding-left: 28px;
+  }
+
+  .sub-title-commodo span {
+    font-size: 18px;
+  }
+
+  .navbar-brand {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sub-title-banner {
+    padding-top: 82px;
+  }
+
+  .title-banner h1 {
+    font-size: 80px;
+  }
+
+  .card, .card-commodo {
+    width: 340px;
+    height: 313px;
+  }
+
+  .card span {
+    width: 320px;
+    left: 10px;
+  }
+
+  .vitae {
+    padding-top: 273px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .title-banner h1 {
+      font-size: 70px;
+  }
+
+  .card, .card-commodo {
+    width: 290px;
+    height: 345px;
+  }
+
+  .card span {
+    width: 262px;
+  }
+
+  .vitae {
+    padding-top: 320px;
+  }
+}
